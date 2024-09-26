@@ -1,0 +1,62 @@
+[
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\rf4",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=rf4_mex   rf4_data.c -Fobuild\\win64\\rf4_data.obj",
+    "file": "rf4_data.c",
+    "output": "build/win64/rf4_data.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\rf4",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=rf4_mex   rt_nonfinite.c -Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\rf4",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=rf4_mex   rf4_initialize.c -Fobuild\\win64\\rf4_initialize.obj",
+    "file": "rf4_initialize.c",
+    "output": "build/win64/rf4_initialize.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\rf4",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=rf4_mex   rf4_terminate.c -Fobuild\\win64\\rf4_terminate.obj",
+    "file": "rf4_terminate.c",
+    "output": "build/win64/rf4_terminate.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\rf4",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=rf4_mex   rf4.c -Fobuild\\win64\\rf4.obj",
+    "file": "rf4.c",
+    "output": "build/win64/rf4.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\rf4",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=rf4_mex   interface\\_coder_rf4_api.c -Fobuild\\win64\\_coder_rf4_api.obj",
+    "file": "interface/_coder_rf4_api.c",
+    "output": "build/win64/_coder_rf4_api.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\rf4",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=rf4_mex   interface\\_coder_rf4_mex.c -Fobuild\\win64\\_coder_rf4_mex.obj",
+    "file": "interface/_coder_rf4_mex.c",
+    "output": "build/win64/_coder_rf4_mex.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\rf4",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=rf4_mex   interface\\_coder_rf4_info.c -Fobuild\\win64\\_coder_rf4_info.obj",
+    "file": "interface/_coder_rf4_info.c",
+    "output": "build/win64/_coder_rf4_info.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\rf4",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=rf4_mex   \"C:\\Program Files\\MATLAB\\R2021a\\extern\\version\\c_mexapi_version.c\" -Fobuild\\win64\\c_mexapi_version.obj",
+    "file": "C:/Program Files/MATLAB/R2021a/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\rf4",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=rf4_mex   \"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\mex\\lccstub.c\" -Fobuild\\win64\\lccstub.obj",
+    "file": "C:/Program Files/MATLAB/R2021a/sys/lcc64/lcc64/mex/lccstub.c",
+    "output": "build/win64/lccstub.obj"
+  }
+]

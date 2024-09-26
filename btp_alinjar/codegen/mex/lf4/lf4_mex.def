@@ -1,0 +1,9 @@
+LIBRARY lf4_mex.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+lf4
+lf4_initialize
+lf4_terminate
+lf4_atexit

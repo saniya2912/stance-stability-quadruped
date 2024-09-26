@@ -1,0 +1,9 @@
+LIBRARY rb3_mex.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+rb3
+rb3_initialize
+rb3_terminate
+rb3_atexit

@@ -1,0 +1,9 @@
+LIBRARY hdotlb_mex.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+hdotlb
+hdotlb_initialize
+hdotlb_terminate
+hdotlb_atexit

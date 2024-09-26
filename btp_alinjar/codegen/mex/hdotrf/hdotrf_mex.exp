@@ -1,0 +1,8 @@
+hdotrf_mex.mexw64
+emlrtMexFcnProperties		emlrtMexFcnProperties
+hdotrf		hdotrf
+hdotrf_atexit		hdotrf_atexit
+hdotrf_initialize		hdotrf_initialize
+hdotrf_terminate		hdotrf_terminate
+mexFunction		mexFunction
+mexfilerequiredapiversion		mexfilerequiredapiversion

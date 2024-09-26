@@ -1,0 +1,9 @@
+LIBRARY acttheta_mex.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+acttheta
+acttheta_initialize
+acttheta_terminate
+acttheta_atexit

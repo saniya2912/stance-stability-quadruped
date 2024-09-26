@@ -1,0 +1,9 @@
+LIBRARY findh_mex.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+findh
+findh_initialize
+findh_terminate
+findh_atexit

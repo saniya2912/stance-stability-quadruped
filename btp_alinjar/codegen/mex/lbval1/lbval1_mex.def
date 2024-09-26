@@ -1,0 +1,9 @@
+LIBRARY lbval1_mex.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+lbval1
+lbval1_initialize
+lbval1_terminate
+lbval1_atexit

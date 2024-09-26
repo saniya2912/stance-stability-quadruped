@@ -1,0 +1,62 @@
+[
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\lb3",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=lb3_mex   lb3_data.c -Fobuild\\win64\\lb3_data.obj",
+    "file": "lb3_data.c",
+    "output": "build/win64/lb3_data.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\lb3",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=lb3_mex   rt_nonfinite.c -Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\lb3",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=lb3_mex   lb3_initialize.c -Fobuild\\win64\\lb3_initialize.obj",
+    "file": "lb3_initialize.c",
+    "output": "build/win64/lb3_initialize.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\lb3",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=lb3_mex   lb3_terminate.c -Fobuild\\win64\\lb3_terminate.obj",
+    "file": "lb3_terminate.c",
+    "output": "build/win64/lb3_terminate.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\lb3",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=lb3_mex   lb3.c -Fobuild\\win64\\lb3.obj",
+    "file": "lb3.c",
+    "output": "build/win64/lb3.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\lb3",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=lb3_mex   interface\\_coder_lb3_api.c -Fobuild\\win64\\_coder_lb3_api.obj",
+    "file": "interface/_coder_lb3_api.c",
+    "output": "build/win64/_coder_lb3_api.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\lb3",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=lb3_mex   interface\\_coder_lb3_mex.c -Fobuild\\win64\\_coder_lb3_mex.obj",
+    "file": "interface/_coder_lb3_mex.c",
+    "output": "build/win64/_coder_lb3_mex.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\lb3",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=lb3_mex   interface\\_coder_lb3_info.c -Fobuild\\win64\\_coder_lb3_info.obj",
+    "file": "interface/_coder_lb3_info.c",
+    "output": "build/win64/_coder_lb3_info.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\lb3",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=lb3_mex   \"C:\\Program Files\\MATLAB\\R2021a\\extern\\version\\c_mexapi_version.c\" -Fobuild\\win64\\c_mexapi_version.obj",
+    "file": "C:/Program Files/MATLAB/R2021a/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\lb3",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=lb3_mex   \"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\mex\\lccstub.c\" -Fobuild\\win64\\lccstub.obj",
+    "file": "C:/Program Files/MATLAB/R2021a/sys/lcc64/lcc64/mex/lccstub.c",
+    "output": "build/win64/lccstub.obj"
+  }
+]

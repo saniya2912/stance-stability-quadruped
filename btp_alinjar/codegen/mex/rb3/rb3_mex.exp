@@ -1,0 +1,8 @@
+rb3_mex.mexw64
+emlrtMexFcnProperties		emlrtMexFcnProperties
+mexFunction		mexFunction
+mexfilerequiredapiversion		mexfilerequiredapiversion
+rb3		rb3
+rb3_atexit		rb3_atexit
+rb3_initialize		rb3_initialize
+rb3_terminate		rb3_terminate

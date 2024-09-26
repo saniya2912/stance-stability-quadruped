@@ -1,0 +1,8 @@
+lb3_mex.mexw64
+emlrtMexFcnProperties		emlrtMexFcnProperties
+lb3		lb3
+lb3_atexit		lb3_atexit
+lb3_initialize		lb3_initialize
+lb3_terminate		lb3_terminate
+mexFunction		mexFunction
+mexfilerequiredapiversion		mexfilerequiredapiversion

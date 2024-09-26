@@ -1,0 +1,20 @@
+function theta_d_des=chooseJVoptimize(h,hdot,v_torso, M)
+A=transpose(h)*h;
+[V,D]=eig(A);
+VR=real(V);
+w=zeros(9,1);
+%w = [0.01;0.03;0.05;0.01;0.03;0.04;0.05;0.02;0.06];
+Va=VR(:,1:9);
+fun = @(w) norm(-pinv(h)*hdot*M*(-pinv(h)*v_torso+Va*w))^2;
+A = Va;
+b = 0.02*ones(12,1);
+%Aeq = [transpose(x(2:10))*x(2:10)*ones(12,1),(x(1)*eye(12,12)-pinv(Reh)*Rehdot)*Va];
+Aeq = [];
+
+beq = [];
+lb = [];
+ub =[];
+%nonlcon =norm(w)-1;
+w0 = [0.01;0.03;0.05;0.01;0.03;0.04;0.05;0.02;0.06];
+ w= fmincon(fun,w0,A,b,Aeq,beq,lb,ub);
+theta_d_des=Va*w;

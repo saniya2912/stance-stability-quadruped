@@ -1,0 +1,9 @@
+LIBRARY rb2_mex.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+rb2
+rb2_initialize
+rb2_terminate
+rb2_atexit

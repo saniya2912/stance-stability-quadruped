@@ -1,0 +1,62 @@
+[
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\acttheta",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=acttheta_mex   acttheta_data.c -Fobuild\\win64\\acttheta_data.obj",
+    "file": "acttheta_data.c",
+    "output": "build/win64/acttheta_data.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\acttheta",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=acttheta_mex   rt_nonfinite.c -Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\acttheta",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=acttheta_mex   acttheta_initialize.c -Fobuild\\win64\\acttheta_initialize.obj",
+    "file": "acttheta_initialize.c",
+    "output": "build/win64/acttheta_initialize.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\acttheta",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=acttheta_mex   acttheta_terminate.c -Fobuild\\win64\\acttheta_terminate.obj",
+    "file": "acttheta_terminate.c",
+    "output": "build/win64/acttheta_terminate.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\acttheta",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=acttheta_mex   acttheta.c -Fobuild\\win64\\acttheta.obj",
+    "file": "acttheta.c",
+    "output": "build/win64/acttheta.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\acttheta",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=acttheta_mex   interface\\_coder_acttheta_api.c -Fobuild\\win64\\_coder_acttheta_api.obj",
+    "file": "interface/_coder_acttheta_api.c",
+    "output": "build/win64/_coder_acttheta_api.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\acttheta",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=acttheta_mex   interface\\_coder_acttheta_mex.c -Fobuild\\win64\\_coder_acttheta_mex.obj",
+    "file": "interface/_coder_acttheta_mex.c",
+    "output": "build/win64/_coder_acttheta_mex.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\acttheta",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=acttheta_mex   interface\\_coder_acttheta_info.c -Fobuild\\win64\\_coder_acttheta_info.obj",
+    "file": "interface/_coder_acttheta_info.c",
+    "output": "build/win64/_coder_acttheta_info.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\acttheta",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=acttheta_mex   \"C:\\Program Files\\MATLAB\\R2021a\\extern\\version\\c_mexapi_version.c\" -Fobuild\\win64\\c_mexapi_version.obj",
+    "file": "C:/Program Files/MATLAB/R2021a/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.obj"
+  },
+  {
+    "directory": "C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\\codegen\\mex\\acttheta",
+    "command": "lcc64 -nodeclspec -Zp8 -dll -c -I\"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\include64\" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I\".\" -I\"C:\\Users\\Saniya\\OneDrive\\Documents\\Robotics\\Delhi\\Quadruped robot Simmechanics\\btp_alinjar\" -I\".\\interface\" -I\"C:\\Program Files\\MATLAB\\R2021a\\extern\\include\" -I\".\" -DMODEL=acttheta_mex   \"C:\\Program Files\\MATLAB\\R2021a\\sys\\lcc64\\lcc64\\mex\\lccstub.c\" -Fobuild\\win64\\lccstub.obj",
+    "file": "C:/Program Files/MATLAB/R2021a/sys/lcc64/lcc64/mex/lccstub.c",
+    "output": "build/win64/lccstub.obj"
+  }
+]

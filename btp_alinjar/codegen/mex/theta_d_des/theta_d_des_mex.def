@@ -1,0 +1,9 @@
+LIBRARY theta_d_des_mex.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+theta_d_des
+theta_d_des_initialize
+theta_d_des_terminate
+theta_d_des_atexit

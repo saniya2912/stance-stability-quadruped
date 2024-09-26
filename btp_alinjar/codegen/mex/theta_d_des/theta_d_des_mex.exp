@@ -1,0 +1,8 @@
+theta_d_des_mex.mexw64
+emlrtMexFcnProperties		emlrtMexFcnProperties
+mexFunction		mexFunction
+mexfilerequiredapiversion		mexfilerequiredapiversion
+theta_d_des		theta_d_des
+theta_d_des_atexit		theta_d_des_atexit
+theta_d_des_initialize		theta_d_des_initialize
+theta_d_des_terminate		theta_d_des_terminate

@@ -1,0 +1,9 @@
+LIBRARY hrbrhorb_mex.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+hrbrhorb
+hrbrhorb_initialize
+hrbrhorb_terminate
+hrbrhorb_atexit

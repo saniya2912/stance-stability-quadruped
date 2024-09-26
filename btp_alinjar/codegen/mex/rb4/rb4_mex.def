@@ -1,0 +1,9 @@
+LIBRARY rb4_mex.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+rb4
+rb4_initialize
+rb4_terminate
+rb4_atexit

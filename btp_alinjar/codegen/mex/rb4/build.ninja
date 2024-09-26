@@ -1,0 +1,49 @@
+# CompilerName=lcc64
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root\build\win64
+matlabdir = C:\Program Files\MATLAB\R2021a
+startdir = C:\Users\Saniya\OneDrive\Documents\Robotics\Delhi\Quadruped robot Simmechanics\btp_alinjar
+
+# Toolchain information
+cc = lcc64
+cxx = 
+linker = lcclnk64
+linkerxx = 
+
+cflags =  -nodeclspec -Zp8 -dll -c -I"$matlabdir\sys\lcc64\lcc64\include64" -DMATLAB_MEX_FILE -noregistrylookup -DNDEBUG -I"$root" -I"$startdir" -I"$root\interface" -I"$matlabdir\extern\include" -I"." -DMODEL=rb4_mex  
+
+cxxflags =  -I"$root" -I"$startdir" -I"$root\interface" -I"$matlabdir\extern\include" -I"." -DMODEL=rb4_mex  
+
+ldflags =  -dll -L"$matlabdir\sys\lcc64\lcc64\lib64" -L"$matlabdir\extern\lib\win64\microsoft" -entry LibMain libmx.lib libmex.lib libmat.lib libemlrt.lib libcovrt.lib libut.lib libmwmathutil.lib -o rb4_mex.mexw64 -s  rb4_mex.def
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in -Fo$out
+
+rule cxx
+    command = $cxx $cxxflags $in -Fo$out
+
+rule link
+    command = $linker $in $ldflags
+
+rule linkxx
+    command = $linkerxx $in $ldflags
+
+# Build
+build $builddir\rb4_data.obj : cc $root\rb4_data.c
+build $builddir\rt_nonfinite.obj : cc $root\rt_nonfinite.c
+build $builddir\rb4_initialize.obj : cc $root\rb4_initialize.c
+build $builddir\rb4_terminate.obj : cc $root\rb4_terminate.c
+build $builddir\rb4.obj : cc $root\rb4.c
+build $builddir\_coder_rb4_api.obj : cc $root\interface\_coder_rb4_api.c
+build $builddir\_coder_rb4_mex.obj : cc $root\interface\_coder_rb4_mex.c
+build $builddir\_coder_rb4_info.obj : cc $root\interface\_coder_rb4_info.c
+build $builddir\c_mexapi_version.obj : cc $matlabdir\extern\version\c_mexapi_version.c
+build $builddir\lccstub.obj : cc $matlabdir\sys\lcc64\lcc64\mex\lccstub.c
+
+# Link
+build $root\rb4_mex.mexw64 : link $builddir\rb4_data.obj $builddir\rt_nonfinite.obj $builddir\rb4_initialize.obj $builddir\rb4_terminate.obj $builddir\rb4.obj $builddir\_coder_rb4_api.obj $builddir\_coder_rb4_mex.obj $builddir\_coder_rb4_info.obj $builddir\c_mexapi_version.obj $builddir\lccstub.obj 
